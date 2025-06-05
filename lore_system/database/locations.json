@@ -1,0 +1,1493 @@
+{
+  "entries": {
+    "42d4bb09-9a15-48a1-8143-1d99f5c16193": {
+      "id": "42d4bb09-9a15-48a1-8143-1d99f5c16193",
+      "category": "locations",
+      "metadata": {
+        "created_date": "2025-06-05T01:47:12.763248",
+        "modified_date": "2025-06-05T01:47:13.032693",
+        "author": "system",
+        "version": 2,
+        "status": "draft"
+      },
+      "name": "Zelorian Republic",
+      "description": "A republic in the world of Astrallum. Capital: Rarnicazar. Culture: Sabernes. Population: 9030677.",
+      "tags": [
+        "state",
+        "political-entity",
+        "sabernes",
+        "naval"
+      ],
+      "custom_fields": {
+        "type": "state",
+        "government_form": "Republic",
+        "capital": "Rarnicazar",
+        "culture": "Sabernes",
+        "total_population": 9030677,
+        "rural_population": 8514929,
+        "urban_population": 515748,
+        "area_sq_miles": 2712800,
+        "expansionism": 3.4,
+        "color": "#ecf549"
+      },
+      "relationships": [
+        {
+          "target_id": "b9788c15-327c-4327-8a10-1e71c61c5a0e",
+          "relationship_type": "located_in",
+          "description": "Zelorian Republic is located in Astrallum",
+          "strength": 8.0
+        }
+      ]
+    },
+    "435a6fb9-c563-4b0f-8508-600a3e79aadc": {
+      "id": "435a6fb9-c563-4b0f-8508-600a3e79aadc",
+      "category": "locations",
+      "metadata": {
+        "created_date": "2025-06-05T01:47:12.768220",
+        "modified_date": "2025-06-05T01:47:12.770826",
+        "author": "system",
+        "version": 2,
+        "status": "draft"
+      },
+      "name": "Rarnicazar",
+      "description": "Capital city of Zelorian Republic.",
+      "tags": [
+        "city",
+        "capital",
+        "sabernes"
+      ],
+      "custom_fields": {
+        "type": "city",
+        "is_capital": true,
+        "parent_state": "Zelorian Republic"
+      },
+      "relationships": [
+        {
+          "target_id": "42d4bb09-9a15-48a1-8143-1d99f5c16193",
+          "relationship_type": "located_in",
+          "description": "Rarnicazar is the capital of Zelorian Republic",
+          "strength": 10.0
+        }
+      ]
+    },
+    "64775065-24bb-46f8-8e13-b8c5f344e62b": {
+      "id": "64775065-24bb-46f8-8e13-b8c5f344e62b",
+      "category": "locations",
+      "metadata": {
+        "created_date": "2025-06-05T01:47:12.773509",
+        "modified_date": "2025-06-05T01:47:13.037743",
+        "author": "system",
+        "version": 2,
+        "status": "draft"
+      },
+      "name": "Kingdom of Eldramar",
+      "description": "A kingdom in the world of Astrallum. Capital: Erdemte. Culture: Vylhe. Population: 6071257.",
+      "tags": [
+        "state",
+        "political-entity",
+        "vylhe",
+        "generic"
+      ],
+      "custom_fields": {
+        "type": "state",
+        "government_form": "Kingdom",
+        "capital": "Erdemte",
+        "culture": "Vylhe",
+        "total_population": 6071257,
+        "rural_population": 5631188,
+        "urban_population": 440069,
+        "area_sq_miles": 2170448,
+        "expansionism": 2.7,
+        "color": "#6cc5c4"
+      },
+      "relationships": [
+        {
+          "target_id": "b9788c15-327c-4327-8a10-1e71c61c5a0e",
+          "relationship_type": "located_in",
+          "description": "Kingdom of Eldramar is located in Astrallum",
+          "strength": 8.0
+        }
+      ]
+    },
+    "52adffe9-5932-4ad0-9fff-3efe9b9dd967": {
+      "id": "52adffe9-5932-4ad0-9fff-3efe9b9dd967",
+      "category": "locations",
+      "metadata": {
+        "created_date": "2025-06-05T01:47:12.776238",
+        "modified_date": "2025-06-05T01:47:12.779020",
+        "author": "system",
+        "version": 2,
+        "status": "draft"
+      },
+      "name": "Erdemte",
+      "description": "Capital city of Kingdom of Eldramar.",
+      "tags": [
+        "city",
+        "capital",
+        "vylhe"
+      ],
+      "custom_fields": {
+        "type": "city",
+        "is_capital": true,
+        "parent_state": "Kingdom of Eldramar"
+      },
+      "relationships": [
+        {
+          "target_id": "64775065-24bb-46f8-8e13-b8c5f344e62b",
+          "relationship_type": "located_in",
+          "description": "Erdemte is the capital of Kingdom of Eldramar",
+          "strength": 10.0
+        }
+      ]
+    },
+    "9b8ebf09-3999-434b-88e8-82322a2822d1": {
+      "id": "9b8ebf09-3999-434b-88e8-82322a2822d1",
+      "category": "locations",
+      "metadata": {
+        "created_date": "2025-06-05T01:47:12.781780",
+        "modified_date": "2025-06-05T01:47:13.042965",
+        "author": "system",
+        "version": 2,
+        "status": "draft"
+      },
+      "name": "Veridianian Union",
+      "description": "A union in the world of Astrallum. Capital: Krustis. Culture: Cawan. Population: 4226286.",
+      "tags": [
+        "state",
+        "political-entity",
+        "cawan",
+        "river"
+      ],
+      "custom_fields": {
+        "type": "state",
+        "government_form": "Union",
+        "capital": "Krustis",
+        "culture": "Cawan",
+        "total_population": 4226286,
+        "rural_population": 3827187,
+        "urban_population": 399099,
+        "area_sq_miles": 1232480,
+        "expansionism": 2.9,
+        "color": "#9bea79"
+      },
+      "relationships": [
+        {
+          "target_id": "b9788c15-327c-4327-8a10-1e71c61c5a0e",
+          "relationship_type": "located_in",
+          "description": "Veridianian Union is located in Astrallum",
+          "strength": 8.0
+        }
+      ]
+    },
+    "0d9b5d21-8c3e-4225-a095-34dfbcacea74": {
+      "id": "0d9b5d21-8c3e-4225-a095-34dfbcacea74",
+      "category": "locations",
+      "metadata": {
+        "created_date": "2025-06-05T01:47:12.784591",
+        "modified_date": "2025-06-05T01:47:12.787579",
+        "author": "system",
+        "version": 2,
+        "status": "draft"
+      },
+      "name": "Krustis",
+      "description": "Capital city of Veridianian Union.",
+      "tags": [
+        "city",
+        "capital",
+        "cawan"
+      ],
+      "custom_fields": {
+        "type": "city",
+        "is_capital": true,
+        "parent_state": "Veridianian Union"
+      },
+      "relationships": [
+        {
+          "target_id": "9b8ebf09-3999-434b-88e8-82322a2822d1",
+          "relationship_type": "located_in",
+          "description": "Krustis is the capital of Veridianian Union",
+          "strength": 10.0
+        }
+      ]
+    },
+    "771ab521-b185-4bde-b062-ce5783a88488": {
+      "id": "771ab521-b185-4bde-b062-ce5783a88488",
+      "category": "locations",
+      "metadata": {
+        "created_date": "2025-06-05T01:47:12.790462",
+        "modified_date": "2025-06-05T01:47:13.048418",
+        "author": "system",
+        "version": 2,
+        "status": "draft"
+      },
+      "name": "Thalvorian Oligarchy",
+      "description": "A oligarchy in the world of Astrallum. Capital: Herrij'hish. Culture: Orodno. Population: 3065811.",
+      "tags": [
+        "state",
+        "political-entity",
+        "orodno",
+        "hunting"
+      ],
+      "custom_fields": {
+        "type": "state",
+        "government_form": "Oligarchy",
+        "capital": "Herrij'hish",
+        "culture": "Orodno",
+        "total_population": 3065811,
+        "rural_population": 2682239,
+        "urban_population": 383572,
+        "area_sq_miles": 1243664,
+        "expansionism": 3.9,
+        "color": "#e78ac3"
+      },
+      "relationships": [
+        {
+          "target_id": "b9788c15-327c-4327-8a10-1e71c61c5a0e",
+          "relationship_type": "located_in",
+          "description": "Thalvorian Oligarchy is located in Astrallum",
+          "strength": 8.0
+        }
+      ]
+    },
+    "57762214-8a78-4acd-a319-f5db9a037235": {
+      "id": "57762214-8a78-4acd-a319-f5db9a037235",
+      "category": "locations",
+      "metadata": {
+        "created_date": "2025-06-05T01:47:12.793340",
+        "modified_date": "2025-06-05T01:47:12.796397",
+        "author": "system",
+        "version": 2,
+        "status": "draft"
+      },
+      "name": "Herrij'hish",
+      "description": "Capital city of Thalvorian Oligarchy.",
+      "tags": [
+        "city",
+        "capital",
+        "orodno"
+      ],
+      "custom_fields": {
+        "type": "city",
+        "is_capital": true,
+        "parent_state": "Thalvorian Oligarchy"
+      },
+      "relationships": [
+        {
+          "target_id": "771ab521-b185-4bde-b062-ce5783a88488",
+          "relationship_type": "located_in",
+          "description": "Herrij'hish is the capital of Thalvorian Oligarchy",
+          "strength": 10.0
+        }
+      ]
+    },
+    "43671e32-0f9f-422c-9d19-9bba7d5829df": {
+      "id": "43671e32-0f9f-422c-9d19-9bba7d5829df",
+      "category": "locations",
+      "metadata": {
+        "created_date": "2025-06-05T01:47:12.799253",
+        "modified_date": "2025-06-05T01:47:13.053917",
+        "author": "system",
+        "version": 2,
+        "status": "draft"
+      },
+      "name": "Dominion of Astrolith",
+      "description": "A dominion in the world of Astrallum. Capital: Vr'kelendrak. Culture: Lubod. Population: 2654826.",
+      "tags": [
+        "state",
+        "political-entity",
+        "lubod",
+        "generic"
+      ],
+      "custom_fields": {
+        "type": "state",
+        "government_form": "Dominion",
+        "capital": "Vr'kelendrak",
+        "culture": "Lubod",
+        "total_population": 2654826,
+        "rural_population": 2358619,
+        "urban_population": 296207,
+        "area_sq_miles": 685168,
+        "expansionism": 3.6,
+        "color": "#edb373"
+      },
+      "relationships": [
+        {
+          "target_id": "b9788c15-327c-4327-8a10-1e71c61c5a0e",
+          "relationship_type": "located_in",
+          "description": "Dominion of Astrolith is located in Astrallum",
+          "strength": 8.0
+        }
+      ]
+    },
+    "ea554328-bda1-40b6-be02-7d8cd36a5694": {
+      "id": "ea554328-bda1-40b6-be02-7d8cd36a5694",
+      "category": "locations",
+      "metadata": {
+        "created_date": "2025-06-05T01:47:12.802201",
+        "modified_date": "2025-06-05T01:47:12.805399",
+        "author": "system",
+        "version": 2,
+        "status": "draft"
+      },
+      "name": "Vr'kelendrak",
+      "description": "Capital city of Dominion of Astrolith.",
+      "tags": [
+        "city",
+        "capital",
+        "lubod"
+      ],
+      "custom_fields": {
+        "type": "city",
+        "is_capital": true,
+        "parent_state": "Dominion of Astrolith"
+      },
+      "relationships": [
+        {
+          "target_id": "43671e32-0f9f-422c-9d19-9bba7d5829df",
+          "relationship_type": "located_in",
+          "description": "Vr'kelendrak is the capital of Dominion of Astrolith",
+          "strength": 10.0
+        }
+      ]
+    },
+    "b7450926-e9ae-4a1f-a17a-360046ac28c9": {
+      "id": "b7450926-e9ae-4a1f-a17a-360046ac28c9",
+      "category": "locations",
+      "metadata": {
+        "created_date": "2025-06-05T01:47:12.808430",
+        "modified_date": "2025-06-05T01:47:12.808435",
+        "author": "system",
+        "version": 1,
+        "status": "draft"
+      },
+      "name": "Aeridia",
+      "description": "A republic in the world of Astrallum. Capital: Jarde. Culture: Obnaspo. Population: 2099270.",
+      "tags": [
+        "state",
+        "political-entity",
+        "obnaspo",
+        "generic"
+      ],
+      "custom_fields": {
+        "type": "state",
+        "government_form": "Republic",
+        "capital": "Jarde",
+        "culture": "Obnaspo",
+        "total_population": 2099270,
+        "rural_population": 1799288,
+        "urban_population": 299982,
+        "area_sq_miles": 340224,
+        "expansionism": 2.4,
+        "color": "#66c2a5"
+      }
+    },
+    "c21dcff9-4706-463b-bc12-f1fe57c9d10e": {
+      "id": "c21dcff9-4706-463b-bc12-f1fe57c9d10e",
+      "category": "locations",
+      "metadata": {
+        "created_date": "2025-06-05T01:47:12.811508",
+        "modified_date": "2025-06-05T01:47:12.814853",
+        "author": "system",
+        "version": 2,
+        "status": "draft"
+      },
+      "name": "Jarde",
+      "description": "Capital city of Aeridia.",
+      "tags": [
+        "city",
+        "capital",
+        "obnaspo"
+      ],
+      "custom_fields": {
+        "type": "city",
+        "is_capital": true,
+        "parent_state": "Aeridia"
+      },
+      "relationships": [
+        {
+          "target_id": "b7450926-e9ae-4a1f-a17a-360046ac28c9",
+          "relationship_type": "located_in",
+          "description": "Jarde is the capital of Aeridia",
+          "strength": 10.0
+        }
+      ]
+    },
+    "39d5e670-51d4-4c87-8af5-6ea2468fc723": {
+      "id": "39d5e670-51d4-4c87-8af5-6ea2468fc723",
+      "category": "locations",
+      "metadata": {
+        "created_date": "2025-06-05T01:47:12.817813",
+        "modified_date": "2025-06-05T01:47:13.059835",
+        "author": "system",
+        "version": 2,
+        "status": "draft"
+      },
+      "name": "Council of Nova Celestia",
+      "description": "A council in the world of Astrallum. Capital: Kra'ji. Culture: Nawon. Population: 2003952.",
+      "tags": [
+        "state",
+        "political-entity",
+        "nawon",
+        "generic"
+      ],
+      "custom_fields": {
+        "type": "state",
+        "government_form": "Council",
+        "capital": "Kra'ji",
+        "culture": "Nawon",
+        "total_population": 2003952,
+        "rural_population": 1766037,
+        "urban_population": 237915,
+        "area_sq_miles": 299728,
+        "expansionism": 3.0,
+        "color": "#cce157"
+      },
+      "relationships": [
+        {
+          "target_id": "b9788c15-327c-4327-8a10-1e71c61c5a0e",
+          "relationship_type": "located_in",
+          "description": "Council of Nova Celestia is located in Astrallum",
+          "strength": 8.0
+        }
+      ]
+    },
+    "9fd8846e-8046-4106-b58d-e857c650f7fc": {
+      "id": "9fd8846e-8046-4106-b58d-e857c650f7fc",
+      "category": "locations",
+      "metadata": {
+        "created_date": "2025-06-05T01:47:12.820738",
+        "modified_date": "2025-06-05T01:47:12.824386",
+        "author": "system",
+        "version": 2,
+        "status": "draft"
+      },
+      "name": "Kra'ji",
+      "description": "Capital city of Council of Nova Celestia.",
+      "tags": [
+        "city",
+        "capital",
+        "nawon"
+      ],
+      "custom_fields": {
+        "type": "city",
+        "is_capital": true,
+        "parent_state": "Council of Nova Celestia"
+      },
+      "relationships": [
+        {
+          "target_id": "39d5e670-51d4-4c87-8af5-6ea2468fc723",
+          "relationship_type": "located_in",
+          "description": "Kra'ji is the capital of Council of Nova Celestia",
+          "strength": 10.0
+        }
+      ]
+    },
+    "78048119-43c4-4678-9537-d2a49ab9c991": {
+      "id": "78048119-43c4-4678-9537-d2a49ab9c991",
+      "category": "locations",
+      "metadata": {
+        "created_date": "2025-06-05T01:47:12.827513",
+        "modified_date": "2025-06-05T01:47:13.065524",
+        "author": "system",
+        "version": 2,
+        "status": "draft"
+      },
+      "name": "Ombrosan Confederation of City-States",
+      "description": "A confederation in the world of Astrallum. Capital: On Ovider. Culture: Obnaspo. Population: 1436746.",
+      "tags": [
+        "state",
+        "political-entity",
+        "obnaspo",
+        "generic"
+      ],
+      "custom_fields": {
+        "type": "state",
+        "government_form": "Confederation",
+        "capital": "On Ovider",
+        "culture": "Obnaspo",
+        "total_population": 1436746,
+        "rural_population": 1287787,
+        "urban_population": 148959,
+        "area_sq_miles": 232096,
+        "expansionism": 2.7,
+        "color": "#ad9cda"
+      },
+      "relationships": [
+        {
+          "target_id": "b9788c15-327c-4327-8a10-1e71c61c5a0e",
+          "relationship_type": "located_in",
+          "description": "Ombrosan Confederation of City-States is located in Astrallum",
+          "strength": 8.0
+        }
+      ]
+    },
+    "41ec5de9-0765-4426-a155-39f398363f6c": {
+      "id": "41ec5de9-0765-4426-a155-39f398363f6c",
+      "category": "locations",
+      "metadata": {
+        "created_date": "2025-06-05T01:47:12.830736",
+        "modified_date": "2025-06-05T01:47:12.834432",
+        "author": "system",
+        "version": 2,
+        "status": "draft"
+      },
+      "name": "On Ovider",
+      "description": "Capital city of Ombrosan Confederation of City-States.",
+      "tags": [
+        "city",
+        "capital",
+        "obnaspo"
+      ],
+      "custom_fields": {
+        "type": "city",
+        "is_capital": true,
+        "parent_state": "Ombrosan Confederation of City-States"
+      },
+      "relationships": [
+        {
+          "target_id": "78048119-43c4-4678-9537-d2a49ab9c991",
+          "relationship_type": "located_in",
+          "description": "On Ovider is the capital of Ombrosan Confederation of City-States",
+          "strength": 10.0
+        }
+      ]
+    },
+    "6301b33f-cd3a-4d3a-94db-d74ceed8ccb1": {
+      "id": "6301b33f-cd3a-4d3a-94db-d74ceed8ccb1",
+      "category": "locations",
+      "metadata": {
+        "created_date": "2025-06-05T01:47:12.837605",
+        "modified_date": "2025-06-05T01:47:13.071118",
+        "author": "system",
+        "version": 2,
+        "status": "draft"
+      },
+      "name": "Divine Kingdom of Luminara",
+      "description": "A divine kingdom in the world of Astrallum. Capital: Adi. Culture: Musti. Population: 1183717.",
+      "tags": [
+        "state",
+        "political-entity",
+        "musti",
+        "generic"
+      ],
+      "custom_fields": {
+        "type": "state",
+        "government_form": "Divine Kingdom",
+        "capital": "Adi",
+        "culture": "Musti",
+        "total_population": 1183717,
+        "rural_population": 1049564,
+        "urban_population": 134153,
+        "area_sq_miles": 216656,
+        "expansionism": 1.3,
+        "color": "#9ec5c8"
+      },
+      "relationships": [
+        {
+          "target_id": "b9788c15-327c-4327-8a10-1e71c61c5a0e",
+          "relationship_type": "located_in",
+          "description": "Divine Kingdom of Luminara is located in Astrallum",
+          "strength": 8.0
+        }
+      ]
+    },
+    "f2d14e1e-1b6d-4b9c-b568-3b2ebb3944b3": {
+      "id": "f2d14e1e-1b6d-4b9c-b568-3b2ebb3944b3",
+      "category": "locations",
+      "metadata": {
+        "created_date": "2025-06-05T01:47:12.841060",
+        "modified_date": "2025-06-05T01:47:12.844824",
+        "author": "system",
+        "version": 2,
+        "status": "draft"
+      },
+      "name": "Adi",
+      "description": "Capital city of Divine Kingdom of Luminara.",
+      "tags": [
+        "city",
+        "capital",
+        "musti"
+      ],
+      "custom_fields": {
+        "type": "city",
+        "is_capital": true,
+        "parent_state": "Divine Kingdom of Luminara"
+      },
+      "relationships": [
+        {
+          "target_id": "6301b33f-cd3a-4d3a-94db-d74ceed8ccb1",
+          "relationship_type": "located_in",
+          "description": "Adi is the capital of Divine Kingdom of Luminara",
+          "strength": 10.0
+        }
+      ]
+    },
+    "46dd9f8d-7454-48a6-995d-ef14074695a7": {
+      "id": "46dd9f8d-7454-48a6-995d-ef14074695a7",
+      "category": "locations",
+      "metadata": {
+        "created_date": "2025-06-05T01:47:12.848261",
+        "modified_date": "2025-06-05T01:47:13.076661",
+        "author": "system",
+        "version": 2,
+        "status": "draft"
+      },
+      "name": "Sylphorian United Republic",
+      "description": "A united republic in the world of Astrallum. Capital: Mistme. Culture: Obnaspo. Population: 945188.",
+      "tags": [
+        "state",
+        "political-entity",
+        "obnaspo",
+        "generic"
+      ],
+      "custom_fields": {
+        "type": "state",
+        "government_form": "United Republic",
+        "capital": "Mistme",
+        "culture": "Obnaspo",
+        "total_population": 945188,
+        "rural_population": 822537,
+        "urban_population": 122651,
+        "area_sq_miles": 136608,
+        "expansionism": 2.0,
+        "color": "#fc8d62"
+      },
+      "relationships": [
+        {
+          "target_id": "b9788c15-327c-4327-8a10-1e71c61c5a0e",
+          "relationship_type": "located_in",
+          "description": "Sylphorian United Republic is located in Astrallum",
+          "strength": 8.0
+        }
+      ]
+    },
+    "cfbe058f-7a09-4e3c-9591-56f46882d246": {
+      "id": "cfbe058f-7a09-4e3c-9591-56f46882d246",
+      "category": "locations",
+      "metadata": {
+        "created_date": "2025-06-05T01:47:12.851669",
+        "modified_date": "2025-06-05T01:47:12.855560",
+        "author": "system",
+        "version": 2,
+        "status": "draft"
+      },
+      "name": "Mistme",
+      "description": "Capital city of Sylphorian United Republic.",
+      "tags": [
+        "city",
+        "capital",
+        "obnaspo"
+      ],
+      "custom_fields": {
+        "type": "city",
+        "is_capital": true,
+        "parent_state": "Sylphorian United Republic"
+      },
+      "relationships": [
+        {
+          "target_id": "46dd9f8d-7454-48a6-995d-ef14074695a7",
+          "relationship_type": "located_in",
+          "description": "Mistme is the capital of Sylphorian United Republic",
+          "strength": 10.0
+        }
+      ]
+    },
+    "29620db6-f969-4288-b0c6-4d83e54e75d8": {
+      "id": "29620db6-f969-4288-b0c6-4d83e54e75d8",
+      "category": "locations",
+      "metadata": {
+        "created_date": "2025-06-05T01:47:12.858994",
+        "modified_date": "2025-06-05T01:47:13.082275",
+        "author": "system",
+        "version": 2,
+        "status": "draft"
+      },
+      "name": "Silvorian Commune",
+      "description": "A commune in the world of Astrallum. Capital: Rernullaca. Culture: Stamstan. Population: 916125.",
+      "tags": [
+        "state",
+        "political-entity",
+        "stamstan",
+        "naval"
+      ],
+      "custom_fields": {
+        "type": "state",
+        "government_form": "Commune",
+        "capital": "Rernullaca",
+        "culture": "Stamstan",
+        "total_population": 916125,
+        "rural_population": 882290,
+        "urban_population": 33835,
+        "area_sq_miles": 241472,
+        "expansionism": 1.4,
+        "color": "#b7a5c9"
+      },
+      "relationships": [
+        {
+          "target_id": "b9788c15-327c-4327-8a10-1e71c61c5a0e",
+          "relationship_type": "located_in",
+          "description": "Silvorian Commune is located in Astrallum",
+          "strength": 8.0
+        }
+      ]
+    },
+    "013661ca-70c5-4684-9d80-fdee03c3a7c1": {
+      "id": "013661ca-70c5-4684-9d80-fdee03c3a7c1",
+      "category": "locations",
+      "metadata": {
+        "created_date": "2025-06-05T01:47:12.862626",
+        "modified_date": "2025-06-05T01:47:12.866773",
+        "author": "system",
+        "version": 2,
+        "status": "draft"
+      },
+      "name": "Rernullaca",
+      "description": "Capital city of Silvorian Commune.",
+      "tags": [
+        "city",
+        "capital",
+        "stamstan"
+      ],
+      "custom_fields": {
+        "type": "city",
+        "is_capital": true,
+        "parent_state": "Silvorian Commune"
+      },
+      "relationships": [
+        {
+          "target_id": "29620db6-f969-4288-b0c6-4d83e54e75d8",
+          "relationship_type": "located_in",
+          "description": "Rernullaca is the capital of Silvorian Commune",
+          "strength": 10.0
+        }
+      ]
+    },
+    "b42a1d69-d134-45a4-9c06-fdeb6b582197": {
+      "id": "b42a1d69-d134-45a4-9c06-fdeb6b582197",
+      "category": "locations",
+      "metadata": {
+        "created_date": "2025-06-05T01:47:12.870096",
+        "modified_date": "2025-06-05T01:47:13.087432",
+        "author": "system",
+        "version": 2,
+        "status": "draft"
+      },
+      "name": "Aerandrian United Provinces",
+      "description": "A united provinces in the world of Astrallum. Capital: Velgzel. Culture: Tongzhou. Population: 795798.",
+      "tags": [
+        "state",
+        "political-entity",
+        "tongzhou",
+        "generic"
+      ],
+      "custom_fields": {
+        "type": "state",
+        "government_form": "United Provinces",
+        "capital": "Velgzel",
+        "culture": "Tongzhou",
+        "total_population": 795798,
+        "rural_population": 696552,
+        "urban_population": 99246,
+        "area_sq_miles": 207504,
+        "expansionism": 1.0,
+        "color": "#ff96bc"
+      },
+      "relationships": [
+        {
+          "target_id": "b9788c15-327c-4327-8a10-1e71c61c5a0e",
+          "relationship_type": "located_in",
+          "description": "Aerandrian United Provinces is located in Astrallum",
+          "strength": 8.0
+        }
+      ]
+    },
+    "c23c4f91-86e0-449b-8bc5-1a103556e28b": {
+      "id": "c23c4f91-86e0-449b-8bc5-1a103556e28b",
+      "category": "locations",
+      "metadata": {
+        "created_date": "2025-06-05T01:47:12.873506",
+        "modified_date": "2025-06-05T01:47:12.877614",
+        "author": "system",
+        "version": 2,
+        "status": "draft"
+      },
+      "name": "Velgzel",
+      "description": "Capital city of Aerandrian United Provinces.",
+      "tags": [
+        "city",
+        "capital",
+        "tongzhou"
+      ],
+      "custom_fields": {
+        "type": "city",
+        "is_capital": true,
+        "parent_state": "Aerandrian United Provinces"
+      },
+      "relationships": [
+        {
+          "target_id": "b42a1d69-d134-45a4-9c06-fdeb6b582197",
+          "relationship_type": "located_in",
+          "description": "Velgzel is the capital of Aerandrian United Provinces",
+          "strength": 10.0
+        }
+      ]
+    },
+    "bd011f6b-cddc-47e6-8dab-d4836789de46": {
+      "id": "bd011f6b-cddc-47e6-8dab-d4836789de46",
+      "category": "locations",
+      "metadata": {
+        "created_date": "2025-06-05T01:47:12.881340",
+        "modified_date": "2025-06-05T01:47:13.092764",
+        "author": "system",
+        "version": 2,
+        "status": "draft"
+      },
+      "name": "Verdant Collective",
+      "description": "A community in the world of Astrallum. Capital: Yranghed. Culture: Orodno. Population: 750195.",
+      "tags": [
+        "state",
+        "political-entity",
+        "orodno",
+        "generic"
+      ],
+      "custom_fields": {
+        "type": "state",
+        "government_form": "Community",
+        "capital": "Yranghed",
+        "culture": "Orodno",
+        "total_population": 750195,
+        "rural_population": 693119,
+        "urban_population": 57076,
+        "area_sq_miles": 208768,
+        "expansionism": 3.0,
+        "color": "#ffd04c"
+      },
+      "relationships": [
+        {
+          "target_id": "b9788c15-327c-4327-8a10-1e71c61c5a0e",
+          "relationship_type": "located_in",
+          "description": "Verdant Collective is located in Astrallum",
+          "strength": 8.0
+        }
+      ]
+    },
+    "728753c2-7e56-4024-889d-0d42149b3cf5": {
+      "id": "728753c2-7e56-4024-889d-0d42149b3cf5",
+      "category": "locations",
+      "metadata": {
+        "created_date": "2025-06-05T01:47:12.885079",
+        "modified_date": "2025-06-05T01:47:12.889373",
+        "author": "system",
+        "version": 2,
+        "status": "draft"
+      },
+      "name": "Yranghed",
+      "description": "Capital city of Verdant Collective.",
+      "tags": [
+        "city",
+        "capital",
+        "orodno"
+      ],
+      "custom_fields": {
+        "type": "city",
+        "is_capital": true,
+        "parent_state": "Verdant Collective"
+      },
+      "relationships": [
+        {
+          "target_id": "bd011f6b-cddc-47e6-8dab-d4836789de46",
+          "relationship_type": "located_in",
+          "description": "Yranghed is the capital of Verdant Collective",
+          "strength": 10.0
+        }
+      ]
+    },
+    "bee50b27-6133-4ddd-b696-73b03f5f26e2": {
+      "id": "bee50b27-6133-4ddd-b696-73b03f5f26e2",
+      "category": "locations",
+      "metadata": {
+        "created_date": "2025-06-05T01:47:12.893221",
+        "modified_date": "2025-06-05T01:47:13.098390",
+        "author": "system",
+        "version": 2,
+        "status": "draft"
+      },
+      "name": "Caelish Federation",
+      "description": "A federation in the world of Astrallum. Capital: Shedil. Culture: Lubod. Population: 677480.",
+      "tags": [
+        "state",
+        "political-entity",
+        "lubod",
+        "generic"
+      ],
+      "custom_fields": {
+        "type": "state",
+        "government_form": "Federation",
+        "capital": "Shedil",
+        "culture": "Lubod",
+        "total_population": 677480,
+        "rural_population": 633397,
+        "urban_population": 44083,
+        "area_sq_miles": 182032,
+        "expansionism": 1.1,
+        "color": "#6fe3a9"
+      },
+      "relationships": [
+        {
+          "target_id": "b9788c15-327c-4327-8a10-1e71c61c5a0e",
+          "relationship_type": "located_in",
+          "description": "Caelish Federation is located in Astrallum",
+          "strength": 8.0
+        }
+      ]
+    },
+    "02ba1d80-23bc-4a93-9ef3-737c456987d0": {
+      "id": "02ba1d80-23bc-4a93-9ef3-737c456987d0",
+      "category": "locations",
+      "metadata": {
+        "created_date": "2025-06-05T01:47:12.897057",
+        "modified_date": "2025-06-05T01:47:12.901529",
+        "author": "system",
+        "version": 2,
+        "status": "draft"
+      },
+      "name": "Shedil",
+      "description": "Capital city of Caelish Federation.",
+      "tags": [
+        "city",
+        "capital",
+        "lubod"
+      ],
+      "custom_fields": {
+        "type": "city",
+        "is_capital": true,
+        "parent_state": "Caelish Federation"
+      },
+      "relationships": [
+        {
+          "target_id": "bee50b27-6133-4ddd-b696-73b03f5f26e2",
+          "relationship_type": "located_in",
+          "description": "Shedil is the capital of Caelish Federation",
+          "strength": 10.0
+        }
+      ]
+    },
+    "ba1baf75-8a2c-45a8-aafc-eefb8095b150": {
+      "id": "ba1baf75-8a2c-45a8-aafc-eefb8095b150",
+      "category": "locations",
+      "metadata": {
+        "created_date": "2025-06-05T01:47:12.905331",
+        "modified_date": "2025-06-05T01:47:13.103930",
+        "author": "system",
+        "version": 2,
+        "status": "draft"
+      },
+      "name": "Astraheim Commonwealth",
+      "description": "A commonwealth in the world of Astrallum. Capital: Maldre. Culture: Baklos. Population: 636207.",
+      "tags": [
+        "state",
+        "political-entity",
+        "baklos",
+        "generic"
+      ],
+      "custom_fields": {
+        "type": "state",
+        "government_form": "Commonwealth",
+        "capital": "Maldre",
+        "culture": "Baklos",
+        "total_population": 636207,
+        "rural_population": 582201,
+        "urban_population": 54006,
+        "area_sq_miles": 141200,
+        "expansionism": 1.1,
+        "color": "#fecf50"
+      },
+      "relationships": [
+        {
+          "target_id": "b9788c15-327c-4327-8a10-1e71c61c5a0e",
+          "relationship_type": "located_in",
+          "description": "Astraheim Commonwealth is located in Astrallum",
+          "strength": 8.0
+        }
+      ]
+    },
+    "044b5e75-cb00-4dc9-bc70-fae7ecd942b2": {
+      "id": "044b5e75-cb00-4dc9-bc70-fae7ecd942b2",
+      "category": "locations",
+      "metadata": {
+        "created_date": "2025-06-05T01:47:12.909386",
+        "modified_date": "2025-06-05T01:47:12.913827",
+        "author": "system",
+        "version": 2,
+        "status": "draft"
+      },
+      "name": "Maldre",
+      "description": "Capital city of Astraheim Commonwealth.",
+      "tags": [
+        "city",
+        "capital",
+        "baklos"
+      ],
+      "custom_fields": {
+        "type": "city",
+        "is_capital": true,
+        "parent_state": "Astraheim Commonwealth"
+      },
+      "relationships": [
+        {
+          "target_id": "ba1baf75-8a2c-45a8-aafc-eefb8095b150",
+          "relationship_type": "located_in",
+          "description": "Maldre is the capital of Astraheim Commonwealth",
+          "strength": 10.0
+        }
+      ]
+    },
+    "d3ee2718-46eb-4ca0-956c-dd8e7e7f4b5e": {
+      "id": "d3ee2718-46eb-4ca0-956c-dd8e7e7f4b5e",
+      "category": "locations",
+      "metadata": {
+        "created_date": "2025-06-05T01:47:12.917786",
+        "modified_date": "2025-06-05T01:47:13.109768",
+        "author": "system",
+        "version": 2,
+        "status": "draft"
+      },
+      "name": "Free Territory of Terra Magna",
+      "description": "A free territory in the world of Astrallum. Capital: Kepeli. Culture: Tongzhou. Population: 515058.",
+      "tags": [
+        "state",
+        "political-entity",
+        "tongzhou",
+        "generic"
+      ],
+      "custom_fields": {
+        "type": "state",
+        "government_form": "Free Territory",
+        "capital": "Kepeli",
+        "culture": "Tongzhou",
+        "total_population": 515058,
+        "rural_population": 404813,
+        "urban_population": 110245,
+        "area_sq_miles": 66240,
+        "expansionism": 2.6,
+        "color": "#e7a587"
+      },
+      "relationships": [
+        {
+          "target_id": "b9788c15-327c-4327-8a10-1e71c61c5a0e",
+          "relationship_type": "located_in",
+          "description": "Free Territory of Terra Magna is located in Astrallum",
+          "strength": 8.0
+        }
+      ]
+    },
+    "dfe1864a-06de-4d9b-8901-0182a75d8ee6": {
+      "id": "dfe1864a-06de-4d9b-8901-0182a75d8ee6",
+      "category": "locations",
+      "metadata": {
+        "created_date": "2025-06-05T01:47:12.921728",
+        "modified_date": "2025-06-05T01:47:12.925987",
+        "author": "system",
+        "version": 2,
+        "status": "draft"
+      },
+      "name": "Kepeli",
+      "description": "Capital city of Free Territory of Terra Magna.",
+      "tags": [
+        "city",
+        "capital",
+        "tongzhou"
+      ],
+      "custom_fields": {
+        "type": "city",
+        "is_capital": true,
+        "parent_state": "Free Territory of Terra Magna"
+      },
+      "relationships": [
+        {
+          "target_id": "d3ee2718-46eb-4ca0-956c-dd8e7e7f4b5e",
+          "relationship_type": "located_in",
+          "description": "Kepeli is the capital of Free Territory of Terra Magna",
+          "strength": 10.0
+        }
+      ]
+    },
+    "7ac3fd15-1e70-4ada-bc7c-02af29d55c1a": {
+      "id": "7ac3fd15-1e70-4ada-bc7c-02af29d55c1a",
+      "category": "locations",
+      "metadata": {
+        "created_date": "2025-06-05T01:47:12.929938",
+        "modified_date": "2025-06-05T01:47:13.124877",
+        "author": "system",
+        "version": 2,
+        "status": "draft"
+      },
+      "name": "Lustran Tribes",
+      "description": "A tribes in the world of Astrallum. Capital: Dirtstorm. Culture: Obnaspo. Population: 360353.",
+      "tags": [
+        "state",
+        "political-entity",
+        "obnaspo",
+        "generic"
+      ],
+      "custom_fields": {
+        "type": "state",
+        "government_form": "Tribes",
+        "capital": "Dirtstorm",
+        "culture": "Obnaspo",
+        "total_population": 360353,
+        "rural_population": 295262,
+        "urban_population": 65091,
+        "area_sq_miles": 46768,
+        "expansionism": 4.0,
+        "color": "#ffd92f"
+      },
+      "relationships": [
+        {
+          "target_id": "b9788c15-327c-4327-8a10-1e71c61c5a0e",
+          "relationship_type": "located_in",
+          "description": "Lustran Tribes is located in Astrallum",
+          "strength": 8.0
+        }
+      ]
+    },
+    "7a0df08b-c832-4412-b204-9707a1d01f15": {
+      "id": "7a0df08b-c832-4412-b204-9707a1d01f15",
+      "category": "locations",
+      "metadata": {
+        "created_date": "2025-06-05T01:47:12.934180",
+        "modified_date": "2025-06-05T01:47:12.938926",
+        "author": "system",
+        "version": 2,
+        "status": "draft"
+      },
+      "name": "Dirtstorm",
+      "description": "Capital city of Lustran Tribes.",
+      "tags": [
+        "city",
+        "capital",
+        "obnaspo"
+      ],
+      "custom_fields": {
+        "type": "city",
+        "is_capital": true,
+        "parent_state": "Lustran Tribes"
+      },
+      "relationships": [
+        {
+          "target_id": "7ac3fd15-1e70-4ada-bc7c-02af29d55c1a",
+          "relationship_type": "located_in",
+          "description": "Dirtstorm is the capital of Lustran Tribes",
+          "strength": 10.0
+        }
+      ]
+    },
+    "7b6e8206-b90e-4be3-aab8-2fc3b687d50e": {
+      "id": "7b6e8206-b90e-4be3-aab8-2fc3b687d50e",
+      "category": "locations",
+      "metadata": {
+        "created_date": "2025-06-05T01:47:12.943066",
+        "modified_date": "2025-06-05T01:47:13.130631",
+        "author": "system",
+        "version": 2,
+        "status": "draft"
+      },
+      "name": "United Kingdom of Aug",
+      "description": "A united kingdom in the world of Astrallum. Capital: Zarvekragha. Culture: Lubod. Population: 308430.",
+      "tags": [
+        "state",
+        "political-entity",
+        "lubod",
+        "generic"
+      ],
+      "custom_fields": {
+        "type": "state",
+        "government_form": "United Kingdom",
+        "capital": "Zarvekragha",
+        "culture": "Lubod",
+        "total_population": 308430,
+        "rural_population": 231922,
+        "urban_population": 76508,
+        "area_sq_miles": 59424,
+        "expansionism": 1.1,
+        "color": "#8da0cb"
+      },
+      "relationships": [
+        {
+          "target_id": "b9788c15-327c-4327-8a10-1e71c61c5a0e",
+          "relationship_type": "located_in",
+          "description": "United Kingdom of Aug is located in Astrallum",
+          "strength": 8.0
+        }
+      ]
+    },
+    "5400365f-27ce-43f8-b21b-9650daeeb88b": {
+      "id": "5400365f-27ce-43f8-b21b-9650daeeb88b",
+      "category": "locations",
+      "metadata": {
+        "created_date": "2025-06-05T01:47:12.947454",
+        "modified_date": "2025-06-05T01:47:12.952332",
+        "author": "system",
+        "version": 2,
+        "status": "draft"
+      },
+      "name": "Zarvekragha",
+      "description": "Capital city of United Kingdom of Aug.",
+      "tags": [
+        "city",
+        "capital",
+        "lubod"
+      ],
+      "custom_fields": {
+        "type": "city",
+        "is_capital": true,
+        "parent_state": "United Kingdom of Aug"
+      },
+      "relationships": [
+        {
+          "target_id": "7b6e8206-b90e-4be3-aab8-2fc3b687d50e",
+          "relationship_type": "located_in",
+          "description": "Zarvekragha is the capital of United Kingdom of Aug",
+          "strength": 10.0
+        }
+      ]
+    },
+    "63df9c08-0e1d-4a70-93b8-108816e4ab17": {
+      "id": "63df9c08-0e1d-4a70-93b8-108816e4ab17",
+      "category": "locations",
+      "metadata": {
+        "created_date": "2025-06-05T01:47:12.956531",
+        "modified_date": "2025-06-05T01:47:13.136211",
+        "author": "system",
+        "version": 2,
+        "status": "draft"
+      },
+      "name": "Nimbus Federation",
+      "description": "A federation in the world of Astrallum. Capital: Krakraless. Culture: Nawon. Population: 270164.",
+      "tags": [
+        "state",
+        "political-entity",
+        "nawon",
+        "generic"
+      ],
+      "custom_fields": {
+        "type": "state",
+        "government_form": "Federation",
+        "capital": "Krakraless",
+        "culture": "Nawon",
+        "total_population": 270164,
+        "rural_population": 213009,
+        "urban_population": 57155,
+        "area_sq_miles": 33632,
+        "expansionism": 1.4,
+        "color": "#ff9768"
+      },
+      "relationships": [
+        {
+          "target_id": "b9788c15-327c-4327-8a10-1e71c61c5a0e",
+          "relationship_type": "located_in",
+          "description": "Nimbus Federation is located in Astrallum",
+          "strength": 8.0
+        }
+      ]
+    },
+    "7bd6028f-ffe8-40b0-89bb-2298e3b09f03": {
+      "id": "7bd6028f-ffe8-40b0-89bb-2298e3b09f03",
+      "category": "locations",
+      "metadata": {
+        "created_date": "2025-06-05T01:47:12.960849",
+        "modified_date": "2025-06-05T01:47:12.965879",
+        "author": "system",
+        "version": 2,
+        "status": "draft"
+      },
+      "name": "Krakraless",
+      "description": "Capital city of Nimbus Federation.",
+      "tags": [
+        "city",
+        "capital",
+        "nawon"
+      ],
+      "custom_fields": {
+        "type": "city",
+        "is_capital": true,
+        "parent_state": "Nimbus Federation"
+      },
+      "relationships": [
+        {
+          "target_id": "63df9c08-0e1d-4a70-93b8-108816e4ab17",
+          "relationship_type": "located_in",
+          "description": "Krakraless is the capital of Nimbus Federation",
+          "strength": 10.0
+        }
+      ]
+    },
+    "33167c73-c4ec-4cae-ae0f-1e739ea7c92a": {
+      "id": "33167c73-c4ec-4cae-ae0f-1e739ea7c92a",
+      "category": "locations",
+      "metadata": {
+        "created_date": "2025-06-05T01:47:12.970019",
+        "modified_date": "2025-06-05T01:47:13.141541",
+        "author": "system",
+        "version": 2,
+        "status": "draft"
+      },
+      "name": "Free City of Aurelia",
+      "description": "A free city in the world of Astrallum. Capital: Azash. Culture: Orodno. Population: 136037.",
+      "tags": [
+        "state",
+        "political-entity",
+        "orodno",
+        "hunting"
+      ],
+      "custom_fields": {
+        "type": "state",
+        "government_form": "Free City",
+        "capital": "Azash",
+        "culture": "Orodno",
+        "total_population": 136037,
+        "rural_population": 81380,
+        "urban_population": 54657,
+        "area_sq_miles": 19024,
+        "expansionism": 1.3,
+        "color": "#a6d854"
+      },
+      "relationships": [
+        {
+          "target_id": "b9788c15-327c-4327-8a10-1e71c61c5a0e",
+          "relationship_type": "located_in",
+          "description": "Free City of Aurelia is located in Astrallum",
+          "strength": 8.0
+        }
+      ]
+    },
+    "f1a19915-41af-4bdd-bccc-e9856c2d4750": {
+      "id": "f1a19915-41af-4bdd-bccc-e9856c2d4750",
+      "category": "locations",
+      "metadata": {
+        "created_date": "2025-06-05T01:47:12.974129",
+        "modified_date": "2025-06-05T01:47:12.979343",
+        "author": "system",
+        "version": 2,
+        "status": "draft"
+      },
+      "name": "Azash",
+      "description": "Capital city of Free City of Aurelia.",
+      "tags": [
+        "city",
+        "capital",
+        "orodno"
+      ],
+      "custom_fields": {
+        "type": "city",
+        "is_capital": true,
+        "parent_state": "Free City of Aurelia"
+      },
+      "relationships": [
+        {
+          "target_id": "33167c73-c4ec-4cae-ae0f-1e739ea7c92a",
+          "relationship_type": "located_in",
+          "description": "Azash is the capital of Free City of Aurelia",
+          "strength": 10.0
+        }
+      ]
+    },
+    "741712e4-5632-4a70-83a1-a5cf5521a7e2": {
+      "id": "741712e4-5632-4a70-83a1-a5cf5521a7e2",
+      "category": "locations",
+      "metadata": {
+        "created_date": "2025-06-05T01:47:12.983713",
+        "modified_date": "2025-06-05T01:47:12.983717",
+        "author": "system",
+        "version": 1,
+        "status": "draft"
+      },
+      "name": "Raybidian Community",
+      "description": "A community in the world of Astrallum. Capital: Himsene. Culture: Orodno. Population: 75491.",
+      "tags": [
+        "state",
+        "political-entity",
+        "orodno",
+        "generic"
+      ],
+      "custom_fields": {
+        "type": "state",
+        "government_form": "Community",
+        "capital": "Himsene",
+        "culture": "Orodno",
+        "total_population": 75491,
+        "rural_population": 58885,
+        "urban_population": 16606,
+        "area_sq_miles": 27584,
+        "expansionism": 2.2,
+        "color": "#ffb46b"
+      }
+    },
+    "ac5a5848-a8a6-4d12-8875-9ffd4b8f2269": {
+      "id": "ac5a5848-a8a6-4d12-8875-9ffd4b8f2269",
+      "category": "locations",
+      "metadata": {
+        "created_date": "2025-06-05T01:47:12.988514",
+        "modified_date": "2025-06-05T01:47:12.993826",
+        "author": "system",
+        "version": 2,
+        "status": "draft"
+      },
+      "name": "Himsene",
+      "description": "Capital city of Raybidian Community.",
+      "tags": [
+        "city",
+        "capital",
+        "orodno"
+      ],
+      "custom_fields": {
+        "type": "city",
+        "is_capital": true,
+        "parent_state": "Raybidian Community"
+      },
+      "relationships": [
+        {
+          "target_id": "741712e4-5632-4a70-83a1-a5cf5521a7e2",
+          "relationship_type": "located_in",
+          "description": "Himsene is the capital of Raybidian Community",
+          "strength": 10.0
+        }
+      ]
+    },
+    "b9788c15-327c-4327-8a10-1e71c61c5a0e": {
+      "id": "b9788c15-327c-4327-8a10-1e71c61c5a0e",
+      "category": "locations",
+      "metadata": {
+        "created_date": "2025-06-05T01:47:13.013906",
+        "modified_date": "2025-06-05T01:47:13.013910",
+        "author": "system",
+        "version": 1,
+        "status": "draft"
+      },
+      "name": "Astrallum",
+      "description": "The enigmatic world where advanced technology masquerades as magic, and ancient mysteries are hidden behind a mystical facade. A reality where the boundaries between magic and machinery blur, creating an intricate tapestry of wonder and intrigue.",
+      "tags": [
+        "world",
+        "setting",
+        "technology",
+        "magic",
+        "mystery"
+      ],
+      "custom_fields": {
+        "type": "world",
+        "genre": "Futuristic Fantasy",
+        "themes": [
+          "sci-fi",
+          "solarpunk",
+          "fantasy"
+        ],
+        "magic_system": "Technology disguised as magic",
+        "current_era": "Eclipse Era",
+        "total_states": 21
+      }
+    }
+  },
+  "metadata": {
+    "last_updated": "2025-06-05T01:47:13.143309"
+  }
+}

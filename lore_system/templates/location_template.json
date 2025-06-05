@@ -1,0 +1,30 @@
+{
+  "name": "",
+  "description": "",
+  "tags": [],
+  "custom_fields": {
+    "type": "",
+    "size": "",
+    "population": "",
+    "climate": "",
+    "terrain": "",
+    "government": "",
+    "ruler": "",
+    "capital": "",
+    "major_cities": [],
+    "notable_locations": [],
+    "resources": [],
+    "trade_goods": [],
+    "defenses": "",
+    "culture": "",
+    "languages": [],
+    "religions": [],
+    "history": "",
+    "current_events": "",
+    "threats": [],
+    "opportunities": [],
+    "travel_time_to": {},
+    "accessibility": ""
+  },
+  "relationships": []
+}

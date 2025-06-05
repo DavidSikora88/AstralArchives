@@ -1,0 +1,40 @@
+{
+  "entries": {
+    "780e2ce6-8aea-4869-95ee-79a59702e3d7": {
+      "id": "780e2ce6-8aea-4869-95ee-79a59702e3d7",
+      "category": "events",
+      "metadata": {
+        "created_date": "2025-06-05T01:47:13.001124",
+        "modified_date": "2025-06-05T01:47:13.004535",
+        "author": "system",
+        "version": 2,
+        "status": "draft"
+      },
+      "name": "The Collapse",
+      "description": "A cataclysmic event that led to the technological collapse, plunging the world into chaos. This event marks the end of The Lost Epoch and the beginning of the Eclipse Era.",
+      "tags": [
+        "event",
+        "catastrophe",
+        "history",
+        "turning-point"
+      ],
+      "custom_fields": {
+        "type": "cataclysmic_event",
+        "date": "Year 0",
+        "era": "Eclipse Era",
+        "impact": "Global technological collapse"
+      },
+      "relationships": [
+        {
+          "target_id": "821d3405-6060-4da6-a9ca-eb0700cc1ac0",
+          "relationship_type": "successor_of",
+          "description": "The Collapse ended The Lost Epoch",
+          "strength": 10.0
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "last_updated": "2025-06-05T01:47:13.006280"
+  }
+}

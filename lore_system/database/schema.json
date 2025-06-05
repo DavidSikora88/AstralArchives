@@ -1,0 +1,92 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Lore Entry Schema",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the lore entry"
+    },
+    "name": {
+      "type": "string",
+      "description": "Name of the lore element"
+    },
+    "category": {
+      "type": "string",
+      "enum": ["characters", "locations", "events", "organizations", "artifacts", "cultures", "religions", "technologies", "creatures", "concepts"]
+    },
+    "subcategory": {
+      "type": "string",
+      "description": "More specific categorization"
+    },
+    "description": {
+      "type": "string",
+      "description": "Detailed description of the lore element"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Tags for easy categorization and search"
+    },
+    "relationships": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "target_id": {
+            "type": "string"
+          },
+          "relationship_type": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "strength": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 10
+          }
+        },
+        "required": ["target_id", "relationship_type"]
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "created_date": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "modified_date": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "author": {
+          "type": "string"
+        },
+        "version": {
+          "type": "number"
+        },
+        "status": {
+          "type": "string",
+          "enum": ["draft", "review", "approved", "archived"]
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "custom_fields": {
+      "type": "object",
+      "description": "Category-specific fields"
+    }
+  },
+  "required": ["id", "name", "category", "description"],
+  "additionalProperties": false
+}

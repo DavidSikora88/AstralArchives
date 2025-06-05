@@ -1,0 +1,26 @@
+{
+  "name": "",
+  "description": "",
+  "tags": [],
+  "custom_fields": {
+    "age": "",
+    "species": "Human",
+    "occupation": "",
+    "affiliation": "",
+    "birth_date": "",
+    "death_date": "",
+    "birthplace": "",
+    "current_location": "",
+    "personality_traits": [],
+    "abilities": [],
+    "equipment": [],
+    "goals": "",
+    "fears": "",
+    "secrets": "",
+    "appearance": "",
+    "background": "",
+    "notable_achievements": [],
+    "relationships_summary": ""
+  },
+  "relationships": []
+}

@@ -1,0 +1,33 @@
+{
+  "name": "",
+  "description": "",
+  "tags": [],
+  "custom_fields": {
+    "type": "",
+    "origin": "",
+    "creator": "",
+    "creation_date": "",
+    "material": "",
+    "size": "",
+    "weight": "",
+    "appearance": "",
+    "function": "",
+    "true_nature": "",
+    "perceived_nature": "",
+    "power_level": "",
+    "activation_method": "",
+    "limitations": [],
+    "side_effects": [],
+    "current_location": "",
+    "current_owner": "",
+    "previous_owners": [],
+    "discovery_circumstances": "",
+    "historical_uses": [],
+    "legends": [],
+    "value": "",
+    "rarity": "",
+    "dangers": [],
+    "maintenance_requirements": ""
+  },
+  "relationships": []
+}

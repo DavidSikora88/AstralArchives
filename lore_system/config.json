@@ -1,0 +1,55 @@
+{
+  "database_path": "lore_system/database/",
+  "templates_path": "lore_system/templates/",
+  "export_path": "lore_system/exports/",
+  "backup_path": "lore_system/backups/",
+  "categories": [
+    "characters",
+    "locations",
+    "events",
+    "organizations",
+    "artifacts",
+    "cultures",
+    "religions",
+    "technologies",
+    "creatures",
+    "concepts"
+  ],
+  "relationship_types": [
+    "related_to",
+    "part_of",
+    "created_by",
+    "destroyed_by",
+    "located_in",
+    "member_of",
+    "enemy_of",
+    "ally_of",
+    "predecessor_of",
+    "successor_of",
+    "influenced_by",
+    "influences"
+  ],
+  "required_fields": {
+    "characters": ["name", "category", "description"],
+    "locations": ["name", "category", "description", "type"],
+    "events": ["name", "category", "description", "date"],
+    "organizations": ["name", "category", "description", "type"],
+    "artifacts": ["name", "category", "description", "origin"],
+    "cultures": ["name", "category", "description", "traits"],
+    "religions": ["name", "category", "description", "beliefs"],
+    "technologies": ["name", "category", "description", "function"],
+    "creatures": ["name", "category", "description", "habitat"],
+    "concepts": ["name", "category", "description", "significance"]
+  },
+  "search_settings": {
+    "fuzzy_threshold": 0.8,
+    "max_results": 50,
+    "include_relationships": true
+  },
+  "validation_rules": {
+    "check_date_consistency": true,
+    "check_location_hierarchy": true,
+    "check_character_relationships": true,
+    "warn_on_contradictions": true
+  }
+}

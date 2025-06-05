@@ -1,0 +1,107 @@
+{
+  "entries": {
+    "821d3405-6060-4da6-a9ca-eb0700cc1ac0": {
+      "id": "821d3405-6060-4da6-a9ca-eb0700cc1ac0",
+      "category": "concepts",
+      "metadata": {
+        "created_date": "2025-06-05T01:47:12.998396",
+        "modified_date": "2025-06-05T01:47:12.998400",
+        "author": "system",
+        "version": 1,
+        "status": "draft"
+      },
+      "name": "The Lost Epoch",
+      "description": "A time of advanced technology and prosperity, now shrouded in mystery. This era represents the height of technological achievement before The Collapse.",
+      "tags": [
+        "era",
+        "history",
+        "technology",
+        "mystery"
+      ],
+      "custom_fields": {
+        "type": "historical_era",
+        "status": "ended",
+        "significance": "Represents the peak of technological civilization"
+      }
+    },
+    "f14bad6f-7f53-447b-abe1-ba60afe2f637": {
+      "id": "f14bad6f-7f53-447b-abe1-ba60afe2f637",
+      "category": "concepts",
+      "metadata": {
+        "created_date": "2025-06-05T01:47:13.007334",
+        "modified_date": "2025-06-05T01:47:13.147452",
+        "author": "system",
+        "version": 3,
+        "status": "draft"
+      },
+      "name": "Eclipse Era",
+      "description": "The current era, where advanced technology is perceived as magic. The truth behind the technology remains hidden from the general public. This era began with The Collapse and continues to Year 1800.",
+      "tags": [
+        "era",
+        "current",
+        "magic",
+        "technology",
+        "mystery"
+      ],
+      "custom_fields": {
+        "type": "historical_era",
+        "start_date": "Year 0",
+        "current_date": "Year 1800",
+        "status": "current",
+        "characteristics": "Technology perceived as magic"
+      },
+      "relationships": [
+        {
+          "target_id": "780e2ce6-8aea-4869-95ee-79a59702e3d7",
+          "relationship_type": "created_by",
+          "description": "The Eclipse Era began with The Collapse",
+          "strength": 10.0
+        },
+        {
+          "target_id": "b9788c15-327c-4327-8a10-1e71c61c5a0e",
+          "relationship_type": "related_to",
+          "description": "Eclipse Era is the current era of Astrallum",
+          "strength": 10.0
+        }
+      ]
+    },
+    "94d08020-2576-47bd-8b65-9f0149b0638f": {
+      "id": "94d08020-2576-47bd-8b65-9f0149b0638f",
+      "category": "concepts",
+      "metadata": {
+        "created_date": "2025-06-05T01:47:13.024727",
+        "modified_date": "2025-06-05T01:47:13.028847",
+        "author": "system",
+        "version": 2,
+        "status": "draft"
+      },
+      "name": "Ancient Relics",
+      "description": "Highly sought after artifacts of advanced technology from The Lost Epoch. These relics are perceived as magical items but are actually remnants of the advanced civilization that existed before The Collapse.",
+      "tags": [
+        "artifacts",
+        "technology",
+        "ancient",
+        "magic",
+        "sought-after"
+      ],
+      "custom_fields": {
+        "type": "artifact_category",
+        "origin": "The Lost Epoch",
+        "nature": "Advanced technology",
+        "perception": "Magical artifacts",
+        "status": "Highly sought after"
+      },
+      "relationships": [
+        {
+          "target_id": "821d3405-6060-4da6-a9ca-eb0700cc1ac0",
+          "relationship_type": "created_by",
+          "description": "Ancient Relics are remnants from The Lost Epoch",
+          "strength": 9.0
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "last_updated": "2025-06-05T01:47:13.149248"
+  }
+}

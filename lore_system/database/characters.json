@@ -1,0 +1,41 @@
+{
+  "entries": {
+    "5345c33e-4994-4b92-ba32-0c4169e3f3ec": {
+      "id": "5345c33e-4994-4b92-ba32-0c4169e3f3ec",
+      "category": "characters",
+      "metadata": {
+        "created_date": "2025-06-05T01:47:13.018709",
+        "modified_date": "2025-06-05T01:47:13.021906",
+        "author": "system",
+        "version": 2,
+        "status": "draft"
+      },
+      "name": "Eternal Chronoglyph",
+      "description": "An astral archivist who serves as the vessel of information and keeper of knowledge about Astrallum. Acts as a guide through the mysteries and secrets of this world.",
+      "tags": [
+        "character",
+        "archivist",
+        "guide",
+        "keeper",
+        "astral"
+      ],
+      "custom_fields": {
+        "type": "astral_being",
+        "role": "Archivist and Guide",
+        "nature": "Eternal",
+        "purpose": "Keeper of knowledge and secrets"
+      },
+      "relationships": [
+        {
+          "target_id": "b9788c15-327c-4327-8a10-1e71c61c5a0e",
+          "relationship_type": "related_to",
+          "description": "Eternal Chronoglyph is the keeper of Astrallum's knowledge",
+          "strength": 10.0
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "last_updated": "2025-06-05T01:47:13.023673"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "",
+  "description": "",
+  "tags": [],
+  "custom_fields": {
+    "date": "",
+    "duration": "",
+    "location": "",
+    "participants": [],
+    "instigator": "",
+    "type": "",
+    "scale": "",
+    "causes": [],
+    "consequences": [],
+    "casualties": "",
+    "witnesses": [],
+    "artifacts_created": [],
+    "artifacts_destroyed": [],
+    "political_impact": "",
+    "cultural_impact": "",
+    "economic_impact": "",
+    "technological_impact": "",
+    "legacy": "",
+    "commemorations": [],
+    "related_prophecies": [],
+    "historical_significance": ""
+  },
+  "relationships": []
+}
