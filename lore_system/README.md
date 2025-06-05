@@ -2,6 +2,8 @@
 
 A comprehensive system for tracking, organizing, and expanding the lore of the Astrallum world. This system provides structured data storage, relationship tracking, consistency validation, and powerful search capabilities.
 
+> **Status**: ✅ Successfully migrated 67 existing lore entries from CSV and Markdown files
+
 ## Features
 
 ### 1. Structured Database
